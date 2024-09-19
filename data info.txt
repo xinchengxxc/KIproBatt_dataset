@@ -1,0 +1,15 @@
+Dataset Description
+
+The data is divided into Performance Data and Process Data, which respectively record the quality information of produced lithium-ion batteries (obtained from cycling tests) and the production process information. Different IDs represent various LIB (Lithium-Ion Battery) cells produced.
+
+Performance Data: Each column, apart from the ID, represents an electrochemical characteristic obtained during the cycling test. Examples include:
+
+Cap_out(Cyc1): The discharge capacity of the battery measured during the first cycling cycle.
+Peak_IC(Cyc1): The peak value in the incremental capacity curve.
+Peak_DV_pos(Cyc1): The position (voltage) where the peak appears in the differential voltage curve.
+DC, AC: Direct current and impedance of the cell.
+Comment: In the batch 2 data, there may be some abnormal batteries (data) that need cleaning. The cause of these anomalies can almost be determined to not be due to the selected process parameters, but rather due to other factors (such as human factors or incidental factors).
+
+gron_KI_231115-gron-0100-061
+gron_KI_231115-gron-0300-062
+gron_KI_231115-gron-0900-055
